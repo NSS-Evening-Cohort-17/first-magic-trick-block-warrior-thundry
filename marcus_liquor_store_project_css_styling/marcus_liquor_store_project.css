@@ -60,10 +60,10 @@ ul {
     padding-left: .5rem;
     margin-top: -599px;
     margin-bottom: 100px;
-    margin-right: 900px;
+    margin-right: 930px;
     margin-left: 100px;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #1fbb0b;
+    box-shadow: inset -5px 0 5px -5px #1fbb0b;
     font-style: italic;
     color: #1fbb0b;
 }
