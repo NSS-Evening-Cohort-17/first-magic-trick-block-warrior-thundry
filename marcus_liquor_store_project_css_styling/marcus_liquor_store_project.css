@@ -1,12 +1,16 @@
 .main{
     display:flex;
 }
-
+h1 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
 .left{
+    margin-left: 750;
     flex: 2 2px;
-    height: 60px;
-    width: 250px;
-    border: dotted red  
+    height: 62px;
+    width: 239px;
+    border: solid black;
 }
 .right{
     flex: 1 10px;
@@ -15,6 +19,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-left: 750;
   }
   li {
     display: inline;
