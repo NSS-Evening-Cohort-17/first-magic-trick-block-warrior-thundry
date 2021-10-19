@@ -9,39 +9,103 @@
     left:0;
     right:0
 }
-
-h1 {
+.Hypnotic_Blue{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.Hypnotic_Blue_Image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 500px;
+    width: 350; 
+}
+.Blue_Hypnotic_Text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    color: #29627e;
 }
-.left{
-    margin-left: 750;
-    flex: 2 2px;
-    height: 62px;
-    width: 239px;
-    border: solid black;
+
+.Hypnotic_Green{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-content: center;
 }
-.right{
+.Hypnotic_Green_Image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 500px;
+    width: 350; 
+}
+.Green_Hypnotic_Text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: inset -5px 0 5px -5px #1fbb0b;
+    font-style: italic;
+    color: #1fbb0b;
+}
+
+.Hypnotic_Purple{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.Hypnotic_Purple_Image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 486px;
+    width: 350; 
+}
+.Purple_Hypnotic_Text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: inset 5px 0 5px -5px #6a0392;
+    font-style: italic;
+    color: #6a0392;
+}
+/* .right{
     flex: 1 10px;
-}
-ul {
+} */
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-left: 750;
   }
   li {
-    display: inline;
-  }
-  .hypnotic_blue{
+    display: inline; */
+  /* .hypnotic_blue{
     flex: 2 2px;
     margin-left: 300px;
     margin-right: 200px;
     height: 500px;
     width: 350px;
     border: solid blue;
-}
-.hypnotic_blue_text {
+} */
+/* .hypnotic_blue_text {
     width: 40%;
     padding-left: .5rem;
     margin-top: -503px;
@@ -52,9 +116,9 @@ ul {
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: #29627e;
-}
+} */
 
-.hypnotic_hulk {
+/* .hypnotic_hulk {
     flex: 2 2px;
     margin-top: -3px;
     margin-bottom: 100px;
@@ -75,8 +139,8 @@ ul {
     box-shadow: inset -5px 0 5px -5px #1fbb0b;
     font-style: italic;
     color: #1fbb0b;
-}
-.hypnotic_purple {
+} */
+/* .hypnotic_purple {
     flex: 2 2px;
     margin-left: 430px;
     height: 500px;
@@ -94,8 +158,8 @@ ul {
     box-shadow: inset 5px 0 5px -5px #6a0392;
     font-style: italic;
     color: #6a0392;
-}
+} */
 
-aside > p {
+/* aside > p {
     margin: .5rem;
-}
+} */
