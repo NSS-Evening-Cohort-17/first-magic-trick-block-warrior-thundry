@@ -91,6 +91,15 @@ main {
   margin-top: -100px;
 }
 
+.pers_content {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
 /* .spirits_mixed img,
 .spirits_cognac img,
 .spirits_gin img {
@@ -231,4 +240,8 @@ footer {
 
 p.text-center {
   margin-top: 1em;
+}
+
+.solo_cognac2 img {
+  border-radius: 50%;
 }
