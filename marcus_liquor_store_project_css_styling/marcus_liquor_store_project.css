@@ -1,7 +1,53 @@
-.main{
-    display:flex;
-}
+body {
+    margin: 0;
+    background-color: #f2f2d7;
+    height: 100%;
+  }
+nav {
+    color: #f4e645;
+    background-color: #741546;
+    border-bottom: 2px solid #00bcd4;
+    width: 100%;
+    font-family: "Damion", cursive;
+  }
 
+a:link {
+    color: #f4e645;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: #f4e645;
+  }
+  
+a:hover {
+    color: #d71044;
+  }
+.team_logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    font-size: 20pt;
+    width: 50%;
+  }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+    margin-right: 2em;
+    font-size: 17pt;
+  }
+  .site_nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    margin-right: 2em;
+  }
 .html, .body, .main{
     position:fixed;
     top:0;
@@ -86,6 +132,19 @@
     font-style: italic;
     color: #6a0392;
 }
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #f24b3f;
+    background-color: #741546;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    z-index: 2;
+  }
+  
 /* .right{
     flex: 1 10px;
 } */
