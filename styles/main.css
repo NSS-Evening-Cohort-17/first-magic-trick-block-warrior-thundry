@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  background-color: #f2f2d7;
+  height: 100%;
+}
+
+nav {
+  color: #f4e645;
+  background-color: #741546;
+  border-bottom: 2px solid #00bcd4;
+  width: 100%;
+  font-family: "Damion", cursive;
+}
+
+a:link {
+  color: #f4e645;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f4e645;
+}
+
+a:hover {
+  color: #d71044;
+}
+
+.team_logo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  font-size: 20pt;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+  margin-right: 2em;
+  font-size: 17pt;
+}
+
+.site_nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  margin-right: 2em;
+}
+
+p {
+  margin-top: -25px;
+}
+
+.hero-image {
+  background-image: url("/images/nwbLiquorStore0158.jpg");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  font-family: "Damion", cursive;
+  font-size: 18pt;
+  transform: translate(-50%, -50%);
+  color: #f24b3f;
+}
+
+.hero_small_text {
+  font-size: 17pt;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: -100px;
+}
+
+.pers_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 80px;
+  margin: 30px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+/* .spirits_mixed img,
+.spirits_cognac img,
+.spirits_gin img {
+  width: auto;
+  height: 100%;
+  margin-left: -60px;
+}
+
+.spirits_mixed,
+.spirits_cognac,
+.spirits_gin {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 1;
+} */
+
+.myButton_1 {
+  background: url(/images/1200px-Hpnotiq_250px.jpg) no-repeat;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25pt;
+  font-family: "Damion", cursive;
+  color: #f24b3f;
+}
+
+.myButton_2 {
+  background: url(/images/henny_250px.jpg) no-repeat;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25pt;
+  font-family: "Damion", cursive;
+  color: #f24b3f;
+}
+
+.myButton_3 {
+  background: url(/images/empress-bottles_250px.jpg) no-repeat;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25pt;
+  font-family: "Damion", cursive;
+  color: #f24b3f;
+}
+
+.myButton_1:hover {
+  /* background: url(/images/1200px-Hpnotiq_250px.jpg) no-repeat; */
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  background: #c33764;
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("/images/1200px-Hpnotiq_250px.jpg");
+}
+
+.myButton_2:hover {
+  background: url(/images/henny_250px.jpg) no-repeat;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  background: #c33764;
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("/images/henny_250px.jpg");
+}
+
+.myButton_3:hover {
+  /* background: url(/images/empress-bottles_250px.jpg) no-repeat; */
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  background: #c33764;
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.8),
+      rgba(195, 55, 100, 0.8)
+    ),
+    url("/images/empress-bottles_250px.jpg");
+}
+
+.myButton_1_name {
+  font-family: "Damion", cursive;
+  color: #f24b3f;
+  margin-top: 100px;
+}
+
+.myButton_2_name {
+  font-family: "Damion", cursive;
+  color: #f24b3f;
+  margin-top: 100px;
+}
+
+.myButton_3_name {
+  font-family: "Damion", cursive;
+  color: #f24b3f;
+  margin-top: 100px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #f24b3f;
+  background-color: #741546;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  z-index: 2;
+}
+
+p.text-center {
+  margin-top: 1em;
+}
+
+/* .solo_cognac2 img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  justify-content: center;
+} */
+
+.left {
+  display: flex;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  justify-content: flex-end;
+}
+
+.right {
+  border-left: 1px solid #741546;
+  padding-left: 40px;
+  margin-right: 20px;
+  width: 500px;
+  color: #201717;
+}
+
+.henny_logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.henny_text {
+  font-family: "Damion", cursive;
+  font-size: 30pt;
+}
