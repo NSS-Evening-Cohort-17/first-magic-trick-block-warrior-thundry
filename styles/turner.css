@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&family=Roboto&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
   /* ////// Start Team Nav Styling //////*/
 
   nav {
@@ -8,6 +10,7 @@
     border-bottom: 2px solid #5c6ac6;
     width: 100%;
     font-family: "Damion", cursive;
+    z-index: 2;
   }
 
   a:link {
@@ -53,8 +56,10 @@ ul {
 /* ////// End Team Nav Styling //////*/
 
 body {
-  /*background-color: rgb(223, 191, 216)*/
+  margin: 0;
   background-color: #cadfd3;
+  height: 100%;
+  
   }  
   
  .banner {
@@ -94,7 +99,7 @@ body {
 
 .full-page {
   column-count: 2;
-  
+  margin: 1em;
 }
 
   .column-layout {
@@ -105,10 +110,12 @@ body {
 
   .mid-column {
     display: flex;
+    padding: 2rem;
   }
 
   .last-column {
     display: flex;
+    padding: 2rem;
   }
 
   .footerSection {
@@ -147,18 +154,33 @@ body {
       justify-content: center; 
       padding: 1em;
       font-style: italic;
+      font-family: "PT Serif";
     }
   
   p {
     display: flex;
     padding: .5em;
     border-width: 1em;
+    font-family: "PT Serif";
   }
   
   h4 {
     display: flex;
     justify-content: center;
-    font-size: 16pt;
+    font-size: 26pt;
     padding: .5em;
+    font-family: "Damion", cursive;
+    margin: 1em;
+  }
+  footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #dca38d;
+    background-color: #741546;
+    height: 40px;
+    font-family: "PT Serif", sans-serif;
+    text-align: center;
+    z-index: 2;
   }
 
