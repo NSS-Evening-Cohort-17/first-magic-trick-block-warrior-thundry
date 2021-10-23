@@ -104,26 +104,6 @@ main {
   margin-bottom: 100px;
 }
 
-/* .spirits_mixed img,
-.spirits_cognac img,
-.spirits_gin img {
-  width: auto;
-  height: 100%;
-  margin-left: -60px;
-}
-
-.spirits_mixed,
-.spirits_cognac,
-.spirits_gin {
-  display: inline-block;
-  position: relative;
-  width: 250px;
-  height: 250px;
-  overflow: hidden;
-  border-radius: 50%;
-  z-index: 1;
-} */
-
 .myButton_1 {
   background: url(/images/1200px-Hpnotiq_250px.jpg) no-repeat;
   cursor: pointer;
